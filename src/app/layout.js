@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./header";
+import { Footer } from "./footer";
 
 
 export const metadata = {
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <div className="bg-gray-50">{children}</div>
+        <Footer />
       </body>
     </html>
   );

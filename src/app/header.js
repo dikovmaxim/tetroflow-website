@@ -6,7 +6,7 @@ export default function Header() {
             <div className="flex items-center gap-4 container mx-auto justify-between text-gray-800">
                 <h1 className="text-2xl">
                     <a href="/">
-                        <span className="extra-bold">TETRA</span><span className="font-bold">CACHE</span>
+                        <span className="extra-bold">tetra</span><span className="font-bold">cache</span>
                     </a>
                 </h1>
                 <nav className="flex gap-4">
