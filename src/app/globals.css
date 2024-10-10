@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+@font-face {
+  font-family: 'GeistMonoBlack';
+  src: url('./fonts/GeistMono-Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'GeistMonoBold';
+  src: url('./fonts/GeistMono-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMonoRegular';
+  src: url('./fonts/GeistMonoVF.woff') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'GeistMonoRegular', sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.extra-bold {
+  font-family: 'GeistMonoBlack', sans-serif;
+  font-weight: 1000;
+}
+
+.extramini-bold {
+  font-family: 'GeistMonoBold', sans-serif;
 }

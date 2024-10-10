@@ -2,100 +2,63 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="min-h-screen pb-20">
+      <div className="flex bg-gray-900 py-24">
+        <div className="container mx-auto flex items-center justify-between">
+          <h1 className="text-3xl md:text-5xl extra-bold md:px-0 px-8 md:leading-relaxed text-white">
+            A <span className="text-amber-500">blazing fast</span> and open-source <br/>
+            in-memory storage with <br/>
+            <span className="text-amber-500">nanosecond</span> response for <span className="text-amber-500">your</span> project
+          </h1>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+      <div className="container mx-auto w-full my-20">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-12">
+            <div className="w-full bg-gray-700 p-4">
+              <div className="flex items-center justify-center h-full">
+                <Image src="/favicon.ico" alt="Centered Image" width={200} height={200} />
+              </div>
+            </div>
+            <div className="w-full p-4">
+              <div className="flex items-center justify-center h-full">
+                <div>
+                  <h2 className="text-3xl extra-bold text-gray-900">
+                    Blazingly <span className="text-amber-500">fast</span>
+                  </h2>
+                  <div className="text-gray-900">
+                    <p className="mt-3"><span className="text-amber-500">Tetrocache</span> is built in modern <span className="text-amber-500">C++</span> for <span className="text-amber-500">nanosecond</span> response times, using in-memory storage and a specialized <span className="text-amber-500">hashmap</span> to handle data types like lists, strings, floats, and integers with ease.</p>
+                    <p className="mt-3">Despite its power, the executable is <span className="text-amber-500">under a megabyte</span>, lightweight, and relies solely on the POSIX C++ and STL with <span className="text-amber-500">no external libraries</span> required.</p>
+                    <p className="mt-3"><span className="text-amber-500">Tetrocache</span> delivers both speed and efficiency, making it ideal for <span className="text-amber-500">high-performance</span> environments.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-12">
+            <div className="w-full p-4 order-2 md:order-1">
+              <div className="flex items-center justify-center h-full">
+                <div>
+                  <h2 className="text-3xl extra-bold text-gray-900">
+                    Blazingly <span className="text-amber-500">fast</span>
+                  </h2>
+                  <div className="text-gray-900">
+                    <p className="mt-3"><span className="text-amber-500">Tetrocache</span> is built in modern <span className="text-amber-500">C++</span> for <span className="text-amber-500">nanosecond</span> response times, using in-memory storage and a specialized <span className="text-amber-500">hashmap</span> to handle data types like lists, strings, floats, and integers with ease.</p>
+                    <p className="mt-3">Despite its power, the executable is <span className="text-amber-500">under a megabyte</span>, lightweight, and relies solely on the POSIX C++ and STL with <span className="text-amber-500">no external libraries</span> required.</p>
+                    <p className="mt-3"><span className="text-amber-500">Tetrocache</span> delivers both speed and efficiency, making it ideal for <span className="text-amber-500">high-performance</span> environments.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full bg-gray-700 p-4 order-1 md:order-2">
+              <div className="flex items-center justify-center h-full">
+                <Image src="/favicon.ico" alt="Centered Image" width={200} height={200} />
+              </div>
+            </div>
+          </div>
+
+      </div>
     </div>
   );
 }
