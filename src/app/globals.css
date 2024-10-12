@@ -36,3 +36,12 @@ body {
 .extramini-bold {
   font-family: 'GeistMonoBold', sans-serif;
 }
+
+.commandstable tr, td {
+  border: 1px solid black;
+}
+
+::selection {
+  background-color: #f59e0b;
+  color: #000;
+}

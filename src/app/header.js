@@ -4,27 +4,21 @@ export default function Header() {
     return (
         <header className="flex p-4 bg-amber-500">
             <div className="flex items-center gap-4 container mx-auto justify-between text-gray-800">
-                <h1 className="text-2xl">
-                    <a href="/">
-                        <span className="extra-bold">tetra</span><span className="font-bold">cache</span>
-                    </a>
-                </h1>
+                <a href="/" className="flex items-center gap-4">
+                    <h1 className="text-2xl flex flex-col">
+                        <p><span className="extra-bold">tetra</span><span className="font-bold">cache</span></p>
+                    </h1>
+                </a>
                 <nav className="flex gap-4">
-                    <ul className="flex gap-4">
+                    <ul className="flex gap-12">
                         <li>
-                            <a href="/" className="hover:underline">
-                                Docs
-                            </a>
+                            <a href="/docs" className="hover:underline">Docs</a>
                         </li>
                         <li>
-                            <a href="/about" className="hover:underline">
-                                Installation
-                            </a>
+                            <a href="/about" className="hover:underline">Installation</a>
                         </li>
                         <li>
-                            <a href="/about" className="hover:underline">
-                                FAQ
-                            </a>
+                            <a href="/about" className="hover:underline">FAQ</a>
                         </li>
                     </ul>
                 </nav>
