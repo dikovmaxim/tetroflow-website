@@ -45,3 +45,8 @@ body {
   background-color: #f59e0b;
   color: #000;
 }
+
+.bg-amber-500 ::selection {
+  background-color: #000000;
+  color: #ffffff;
+}

@@ -137,46 +137,6 @@ export const commands = [
         response: '{"response": int}',
         introduced: '1.0'
     },
-    //zadd
-    {
-        command: 'ZADD',
-        description: 'Add a value to a sorted set',
-        request: '{"command":"ZADD","arguments": {"key": int, "value": value, "score": float}}',
-        response: '{"response": value}',
-        introduced: '1.0'
-    },
-    //zrem
-    {
-        command: 'ZREM',
-        description: 'Remove a value from a sorted set',
-        request: '{"command":"ZREM","arguments": {"key": int, "value": value}}',
-        response: '{"response": value}',
-        introduced: '1.0'
-    },
-    //zrange
-    {
-        command: 'ZRANGE',
-        description: 'Get a range of values from a sorted set',
-        request: '{"command":"ZRANGE","arguments": {"key": int, "start": int, "end": int}}',
-        response: '{"response": [values]}',
-        introduced: '1.0'
-    },
-    //zrevrange
-    {
-        command: 'ZREVRANGE',
-        description: 'Get a range of values from a sorted set in reverse order',
-        request: '{"command":"ZREVRANGE","arguments": {"key": int, "start": int, "end": int}}',
-        response: '{"response": [values]}',
-        introduced: '1.0'
-    },
-    //zcard
-    {
-        command: 'ZCARD',
-        description: 'Get the cardinality of a sorted set',
-        request: '{"command":"ZCARD","arguments": {"key": int}}',
-        response: '{"response": int}',
-        introduced: '1.0'
-    },
     //INC
     {
         command: 'INC',

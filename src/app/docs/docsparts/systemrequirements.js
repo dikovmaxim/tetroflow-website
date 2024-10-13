@@ -5,8 +5,8 @@ export default function SystemRequirements(){
         <div>
             <h2 className="text-2xl font-bold">System requirements</h2>
             <div className="text-gray-500 my-4">
-                Tetracache is a standalone application developed for POSIX-compliant systems.
-                The following are the minimal system requirements to run Tetracache:
+                Tetroflow is a standalone application developed for POSIX-compliant systems.
+                The following are the minimal system requirements to run Tetroflow:
                 <ul className="list-disc ml-6">
                     <li>POSIX-compliant kernel (Linux, Unix, MacOS) or any other with <CodeBlock>mmap</CodeBlock> and <CodeBlock>fork</CodeBlock> support. Filesystem is optional :)</li>
                     <li>glibc 2.38 or higher (if using dynamically linked binaries)</li>

@@ -7,7 +7,7 @@ export function Footer() {
                     <div className="mb-6 md:mb-0">
                         <a href="/" className="flex items-center">
                             <span className="self-center text-2xl whitespace-nowrap text-amber-500">
-                                <span className="extra-bold ">tetra</span><span className="font-bold">cache</span>
+                                <span className="extra-bold ">tetro</span><span className="font-bold">flow</span>
                             </span>
                         </a>
                     </div>

@@ -16,11 +16,6 @@ export default function DocsDescription() {
                                 </a>
                             </li>
                             <li>
-                                <a href="/docs/#features" className="hover:underline">
-                                    Features 
-                                </a>
-                            </li>
-                            <li>
                                 <a href="/docs/#architecture" className="hover:underline">
                                     Architecture
                                 </a>
@@ -87,11 +82,6 @@ export default function DocsDescription() {
                             <li>
                                 <a href="/docs/#datatype-sets" className="hover:underline">
                                     Sets
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/docs/#datatype-sortedsets" className="hover:underline">
-                                    Sorted Sets
                                 </a>
                             </li>
                         </ul>
