@@ -11,18 +11,7 @@ export function Footer() {
                             </span>
                         </a>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                        <div>
-                            <h2 className="mb-6 text-md font-semibold text-gray-50 text-bold extra-bold uppercase">Resources</h2>
-                            <ul className="text-gray-300 font-medium">
-                                <li className="mb-4">
-                                    <a href="https://flowbite.com/" className="hover:underline">Flowbite</a>
-                                </li>
-                                <li>
-                                    <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
                         <div>
                             <h2 className="mb-6 text-md font-semibold text-gray-50 text-bold extra-bold uppercase">Follow us</h2>
                             <ul className="text-gray-300 font-medium">
@@ -49,7 +38,7 @@ export function Footer() {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-gray-500 sm:text-center">© 2024 TetraCache. All rights reserved.
+                    <span className="text-sm text-gray-500 sm:text-center">© 2024 Tetroflow. All rights reserved.
                     </span>
                 </div>
             </div>

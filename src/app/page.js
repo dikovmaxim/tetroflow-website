@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+import speedPic from "./public/speed.webp";
+import integrationPic from "./public/integration.webp";
+import opensourcePic from "./public/opensource.webp";
+
+
 export default function Home() {
   return (
     <div className="min-h-screen pb-20">
@@ -25,7 +30,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-12">
             <div className="w-full p-4">
               <div className="flex items-center justify-center h-full">
-                <Image src="/favicon.ico" alt="Centered Image" width={200} height={200} />
+                <Image src={speedPic} alt="This image displays a high speed, which is a metaphor for Tetroflow's speed."/>
               </div>
             </div>
             <div className="w-full p-4">
@@ -62,7 +67,7 @@ export default function Home() {
             </div>
             <div className="w-full p-4 order-1 md:order-2">
               <div className="flex items-center justify-center h-full">
-                <Image src="/favicon.ico" alt="Centered Image" width={200} height={200} />
+                <Image src={integrationPic} alt="This image dshows, that Tetroflow can be easily integrated into any environment."/>
               </div>
             </div>
           </div>
@@ -70,7 +75,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-12">
             <div className="w-full p-4">
               <div className="flex items-center justify-center h-full">
-                <Image src="/favicon.ico" alt="Centered Image" width={200} height={200} />
+                <Image src={opensourcePic} alt="This image shows, that Tetroflow is open-source and customizable."/>
               </div>
             </div>
             <div className="w-full p-4">
