@@ -33,8 +33,30 @@ export default function DocsDescription() {
                                 </a>
                             </li>
                             <li>
+                                <a href="/docs/#configs" className="hover:underline">
+                                    Configurations
+                                </a>
+                            </li>
+                            <li>
                                 <a href="/docs/#buildingfromsource" className="hover:underline">
                                     Building from source
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/docs/#architecture" className="hover:underline font-bold">
+                            Architecture
+                        </a>
+                        <ul className="text-gray-500 list-disc ml-6">
+                            <li>
+                                <a href="/docs/#architecture" className="hover:underline">
+                                    Core architecture
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/docs/#replication" className="hover:underline">
+                                    Replication techniques
                                 </a>
                             </li>
                         </ul>

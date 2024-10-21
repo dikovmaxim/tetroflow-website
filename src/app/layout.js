@@ -16,11 +16,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+      <body className="antialiased flex flex-col min-h-screen">
         <Header />
-        <div className="bg-gray-50">{children}</div>
+        <div className="flex-grow bg-gray-50 mx-2 md:mx-0">{children}</div>
         <Footer />
       </body>
     </html>

@@ -2,7 +2,7 @@
 export default function Description(){
     return (
         <div>
-            <h2 className="text-2xl font-bold">Description</h2>
+            <h3 className="text-xl font-bold">Description</h3>
             <div className="text-gray-500 my-4">
                 Tetroflow is a high-performance, in-memory database built to deliver exceptional speed and efficiency.
                 Written in modern C++, it responds within nanoseconds thanks to a specialized hashmap for data storage, allowing seamless handling of various data types like lists, strings, floats, and integers.

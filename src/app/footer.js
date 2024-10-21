@@ -16,10 +16,10 @@ export function Footer() {
                             <h2 className="mb-6 text-md font-semibold text-gray-50 text-bold extra-bold uppercase">Follow us</h2>
                             <ul className="text-gray-300 font-medium">
                                 <li className="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
+                                    <a href="https://github.com/dikovmaxim/tetroflow" className="hover:underline target:_blank">GitHub</a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                                    <a href="#" className="hover:underline">Discord</a>
                                 </li>
                             </ul>
                         </div>
@@ -27,10 +27,10 @@ export function Footer() {
                             <h2 className="mb-6 text-md font-semibold text-gray-50 text-bold extra-bold uppercase">Legal</h2>
                             <ul className="text-gray-300 font-medium">
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Privacy Policy</a>
+                                    <a href="/termsofuse" className="hover:underline">Terms os use</a>
                                 </li>
-                                <li>
-                                    <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                                <li className="mb-4">
+                                    <a href="/privacypolicy" className="hover:underline">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>

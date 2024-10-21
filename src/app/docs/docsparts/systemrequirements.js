@@ -3,7 +3,7 @@ import CodeBlock from "@/app/components/codeblock";
 export default function SystemRequirements(){
     return (
         <div>
-            <h2 className="text-2xl font-bold">System requirements</h2>
+            <h3 className="text-xl font-bold">System requirements</h3>
             <div className="text-gray-500 my-4">
                 Tetroflow is a standalone application developed for POSIX-compliant systems.
                 The following are the minimal system requirements to run Tetroflow:

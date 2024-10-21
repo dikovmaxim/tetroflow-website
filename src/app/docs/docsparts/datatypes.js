@@ -3,7 +3,7 @@ import CodeBlock from "@/app/components/codeblock";
 export default function Datatypes(){
     return (
         <div id="datatypes">
-            <h2 className="text-2xl font-bold">Data types</h2>
+            <h3 className="text-xl font-bold">Data types</h3>
             <div className="text-gray-500 my-1">
                 As mentioned earlier, Tetroflow is a key-value store. It supports a variety of data types, but unlike other key-value stores, for example Redis, it has a &quot;stromgly typed&quot; approach to data storage.
                 This means that each key-value pair is stored as a specific data type, thus cannont be suddenly handled as another type.
