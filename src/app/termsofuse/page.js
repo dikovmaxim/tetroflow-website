@@ -22,7 +22,7 @@ export default function TermsOfUse() {
                     <p className="text-md font-semibold">
                         3. Disclaimer of Warranties
                     </p>
-                This website and its contents are provided on an "as is" and "as available" basis. We do not guarantee that the website will be free from errors, uninterrupted, or secure. We disclaim all warranties, express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.
+                This website and its contents are provided on an &quot;as is&quot; and &quot;as available&quot; basis. We do not guarantee that the website will be free from errors, uninterrupted, or secure. We disclaim all warranties, express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.
                 </div>
 
                 <div>

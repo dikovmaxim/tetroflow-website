@@ -28,7 +28,7 @@ export default function Configs(){
                 <ul className="list-disc ml-6 space-y-2">
                     <li><CodeBlock>socket</CodeBlock> - the path to the Unix socket file. Default is <CodeBlock>/tmp/tetroflow.sock</CodeBlock></li>
                     <li><CodeBlock>replicateListen</CodeBlock> - the IP and port to listen for replication connections. Default is </li>
-                    <li><CodeBlock>replicateConnect</CodeBlock> - the list of IP and ports of nodes to connect to for replication. (the current node's IP and port for replication are in replicateListen)</li>
+                    <li><CodeBlock>replicateConnect</CodeBlock> - the list of IP and ports of nodes to connect to for replication. (the current node&apos;s IP and port for replication are in replicateListen)</li>
                     <li><CodeBlock>tableReserveSize</CodeBlock> - the size of the hash table. Default is 1000</li>
                 </ul>
             </div>

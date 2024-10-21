@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
                     <p className="text-md font-semibold">
                         1. Introduction
                     </p>
-                    Nikolay Dikov e.U., located at Handelskai 102-112 /4 / 14, Vienna 1200, Austria ("we", "us", or "our"), is committed to safeguarding your privacy while using our website. This Privacy Policy outlines the types of information we may collect and how we utilize, disclose, and safeguard that information. By accessing or using our website, you agree to the terms and conditions set forth in this Privacy Policy.
+                    Nikolay Dikov e.U., located at Handelskai 102-112 /4 / 14, Vienna 1200, Austria (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), is committed to safeguarding your privacy while using our website. This Privacy Policy outlines the types of information we may collect and how we utilize, disclose, and safeguard that information. By accessing or using our website, you agree to the terms and conditions set forth in this Privacy Policy.
                 </div>
 
                 <div>
@@ -37,14 +37,14 @@ export default function PrivacyPolicy() {
                     <p className="text-md font-semibold">
                         5. Open Source and Third-Party Links
                     </p>
-                    The website represents an open-source software project, and all data, including software, is made openly available to users. We do not guarantee the accuracy, functionality, or security of third-party websites linked from our platform. Accessing these third-party links is at the user's own risk, and we disclaim any liability for any harm or damages that may arise from their use.
+                    The website represents an open-source software project, and all data, including software, is made openly available to users. We do not guarantee the accuracy, functionality, or security of third-party websites linked from our platform. Accessing these third-party links is at the user&apos;s own risk, and we disclaim any liability for any harm or damages that may arise from their use.
                 </div>
 
                 <div>
                     <p className="text-md font-semibold">
                         6. Liability
                     </p>
-                    We shall not be held responsible for any actions taken based on information, materials, or links found on the website. While we strive to provide accurate and up-to-date information, we do not warrant the completeness, reliability, or availability of the website or any of its content. Any reliance placed on such materials is strictly at the user's own risk.
+                    We shall not be held responsible for any actions taken based on information, materials, or links found on the website. While we strive to provide accurate and up-to-date information, we do not warrant the completeness, reliability, or availability of the website or any of its content. Any reliance placed on such materials is strictly at the user&apos;s own risk.
                 </div>
 
                 <div>
